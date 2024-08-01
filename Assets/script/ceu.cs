@@ -11,6 +11,7 @@ public class ceu : MonoBehaviour
     public Animator anim;
     public Sprite sprite;
     public bool respostaboa = false;
+    public bool contarTempo = false;
 
     // Método para inicializar o script
     void Start()
@@ -31,23 +32,22 @@ public class ceu : MonoBehaviour
     void SelecionarResposta( Animator dinheiro , int index )
     {
         // Exibe a resposta selecionada no texto
-        if (respostaboa == false)
+        if (respostaboa == false )
         {
             anim.SetLayerWeight(0,1);
-            textoResposta.text = "posso n estou sem dinheiro so vou ter na proxima semana.";
+            textoResposta.text = "ta bom ";
+            botoesResposta[0].interactable = false;
+        }
+
+        if (respostaboa == false)
+        {
+            
         }
     }
 
-    /*public void animResposta()
-    {
-       if(respostaboa== false)
-        {
-            anim.SetLayerWeight(0,1);
-        }
 
-        else if(respostaboa == true)
-        {
-            anim.SetLayerWeight(1,1);
-        } 
-    }*/
+    public void contarTempoDoJogo()
+    {
+        
+    }
 }

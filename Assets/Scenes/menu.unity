@@ -590,7 +590,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1184063519}
         m_TargetAssemblyTypeName: play, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: responder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

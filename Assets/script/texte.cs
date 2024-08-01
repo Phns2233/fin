@@ -19,7 +19,7 @@ public class MenuResposta : MonoBehaviour
         for (int i = 0; i < botoesResposta.Length; i++)
         {
             int index = i; // Armazena o índice do botão para usar no listener
-            botoesResposta[i].onClick.AddListener(() => SelecionarResposta(anim, index));
+            botoesResposta[i].onClick.AddListener(() => SelecionarResposta( index));
             sprite = GetComponent<Sprite>();
             anim = GetComponent<Animator>();
         }
@@ -28,25 +28,22 @@ public class MenuResposta : MonoBehaviour
     }
 
     // Método para lidar com a seleção de resposta
-    void SelecionarResposta( Animator dinheiro , int index )
+    void SelecionarResposta(   int index  )
     {
         if (respostaboa == true)
         {
-            textoResposta.text = $"Esta bem mais eu presizo do dinheiro na proxima semana.";
+            textoResposta.text = $"dfgdgdfgdgfdgdgdgdgd";
             anim.SetLayerWeight(1,1);
+            botoesResposta[0].interactable = false;
         }
+      /* if (respostaboa == false)
+        {
+            
+            anim.SetLayerWeight(0,1);
+            textoResposta.text = "ta vou sair umas 8";
+            botoesResposta[0].interactable = false;
+        }*/
     }
 
-    /*public void animResposta()
-    {
-       if(respostaboa== false)
-        {
-            anim.SetLayerWeight(0,1);
-        }
-
-        else if(respostaboa == true)
-        {
-            anim.SetLayerWeight(1,1);
-        } 
-    }*/
+    
 }
