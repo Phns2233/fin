@@ -26,4 +26,13 @@ public class play : MonoBehaviour
         SceneManager.LoadScene("responder");
     }
 
+    public void money()
+    {
+        SceneManager.LoadScene("dinheiro");
+    }
+
+    public void proximaFase()
+    {
+        SceneManager.LoadScene("responder");
+    }
 }

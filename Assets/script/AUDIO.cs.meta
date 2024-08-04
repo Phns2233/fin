@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 96e3a40aa628ee34caefa6e4faa65036
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - trilhaSonora: {fileID: 8300000, guid: a8b1b9eae7e5b284f98704204cee8414, type: 3}
+  - trilhaFase1: {fileID: 8300000, guid: a8b1b9eae7e5b284f98704204cee8414, type: 3}
+  - trilhaMenu: {fileID: 8300000, guid: a8b1b9eae7e5b284f98704204cee8414, type: 3}
+  - trilhaDinheiro: {fileID: 8300000, guid: a8b1b9eae7e5b284f98704204cee8414, type: 3}
+  - trilhacreditos: {fileID: 8300000, guid: a8b1b9eae7e5b284f98704204cee8414, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

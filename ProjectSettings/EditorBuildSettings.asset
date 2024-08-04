@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/creditos.unity
     guid: 7ce101b1dae3abe43890b0768476f1bb
   - enabled: 1
+    path: Assets/Scenes/dinheiro.unity
+    guid: 00f6558cf6196b848ad83300f0374191
+  - enabled: 1
     path: Assets/Scenes/responder.unity
     guid: 80633c59201616848a93307917e141d2
   - enabled: 1
     path: Assets/Scenes/fase1.unity
     guid: f10b694803d15444c8f085723df75656
+  - enabled: 1
+    path: Assets/Scenes/Cena1.unity
+    guid: e86e44e4ad3a82e4cbf293904e1ca625
   - enabled: 0
     path: Assets/Scenes/respostamal.unity
     guid: 9ca8b1612a93f70459be8e989c592027

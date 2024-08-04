@@ -22,7 +22,7 @@ public class Creditos : MonoBehaviour
         int count = 0;
         while (count < crt.Length)
         {
-            time = 2;
+
             yield return new WaitForSeconds(time);
             viewer.text += crt[count];
             count++;

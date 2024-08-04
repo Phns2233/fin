@@ -12,6 +12,7 @@ public class ceu : MonoBehaviour
     public Sprite sprite;
     public bool respostaboa = false;
     public bool contarTempo = false;
+    public float time = 30f;
 
     // Método para inicializar o script
     void Start()
@@ -29,25 +30,27 @@ public class ceu : MonoBehaviour
     }
 
     // Método para lidar com a seleção de resposta
-    void SelecionarResposta( Animator dinheiro , int index )
+    void SelecionarResposta(Animator celular, int index)
     {
         // Exibe a resposta selecionada no texto
-        if (respostaboa == false )
+        if (respostaboa == false)
         {
-            anim.SetLayerWeight(0,1);
+            anim.SetLayerWeight(1, 1);
             textoResposta.text = "ta bom ";
             botoesResposta[0].interactable = false;
+            new WaitForSecondsRealtime(time);
+            SceneManager.LoadScene("cena1");
         }
 
         if (respostaboa == false)
         {
-            
+
         }
     }
 
 
     public void contarTempoDoJogo()
     {
-        
+
     }
 }

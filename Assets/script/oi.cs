@@ -30,9 +30,9 @@ public class oi : MonoBehaviour
         }
 
     }
-public void ButtonApertado()
-{
-    
-}
+    public void ButtonApertado()
+    {
+        
+    }
    
 }

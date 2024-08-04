@@ -11,6 +11,7 @@ public class MenuResposta : MonoBehaviour
     public Animator anim;
     public Sprite sprite;
     public bool respostaboa = false;
+    public float time = 30f;
 
     // Método para inicializar o script
     void Start()
@@ -32,18 +33,20 @@ public class MenuResposta : MonoBehaviour
     {
         if (respostaboa == true)
         {
-            textoResposta.text = $"dfgdgdfgdgfdgdgdgdgd";
+            textoResposta.text = $"teu cu";
             anim.SetLayerWeight(1,1);
             botoesResposta[0].interactable = false;
+            new WaitForSeconds(time);
+            SceneManager.LoadScene("cena1");
         }
-      /* if (respostaboa == false)
-        {
-            
-            anim.SetLayerWeight(0,1);
-            textoResposta.text = "ta vou sair umas 8";
-            botoesResposta[0].interactable = false;
-        }*/
+
+
+    } 
+
+    public void contarTempoDoJogo()
+    {
+
     }
 
-    
+
 }
