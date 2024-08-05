@@ -35,4 +35,24 @@ public class play : MonoBehaviour
     {
         SceneManager.LoadScene("responder");
     }
+
+    public void Carro()
+    {
+        SceneManager.LoadScene("JogoCarro");
+    }
+
+     public void CarroNormal()
+    {
+        SceneManager.LoadScene("JogoCarroNormal");
+    }
+
+    public void GameOver()
+    {
+        SceneManager.LoadScene("InicioCarro");
+    }
+
+    public void Sair()
+   {
+      Application.Quit();
+   }
 }

@@ -23,6 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cena1.unity
     guid: e86e44e4ad3a82e4cbf293904e1ca625
+  - enabled: 1
+    path: Assets/Scenes/cena2.unity
+    guid: 45e72394ff0109b48b9e7241ba04b12c
+  - enabled: 1
+    path: Assets/Scenes/InicioCarro.unity
+    guid: 0c38d5f091c17964a9ad6370f6e06271
+  - enabled: 1
+    path: Assets/Scenes/JogoCarro.unity
+    guid: 7107e87113600e94a8bf567bc7dee13d
+  - enabled: 1
+    path: Assets/Scenes/JogoCarroNormal.unity
+    guid: f85e5e5dce706b646bce2297133ba12e
   - enabled: 0
     path: Assets/Scenes/respostamal.unity
     guid: 9ca8b1612a93f70459be8e989c592027
